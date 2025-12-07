@@ -21,6 +21,26 @@ To run your application:
 ./mvnw clean compile exec:java
 ```
 
+## Docker Instructions
+
+First, build the fat JAR using Maven:
+
+```bash
+mvn clean package
+```
+Then build the Docker image:
+```
+docker build -t user-service 
+```
+Run the Docker Container
+```
+docker run --rm -p 8888:8888 user-service
+```
+The application will start and be accessible at:
+```
+http://localhost:8888
+```
+
 == Help
 
 * https://vertx.io/docs/[Vert.x Documentation]
