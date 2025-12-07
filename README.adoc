@@ -4,6 +4,15 @@ image:https://img.shields.io/badge/vert.x-5.0.5-purple.svg[link="https://vertx.i
 
 This application was generated using http://start.vertx.io
 
+## Technologies & Tools Used
+- Java 22
+- Vert.x Web (HTTP routing and server)
+- JUnit 5 (unit testing)
+- Postman (manual API testing)
+- Maven (build and dependency management)
+- Docker (containerization)
+
+
 == Building
 
 To launch your tests:
